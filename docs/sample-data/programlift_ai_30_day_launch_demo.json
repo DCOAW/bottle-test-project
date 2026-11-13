@@ -1,0 +1,2665 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": {
+    "id": "programlift-ai-30-day-launch-demo",
+    "name": "ProgramLift AI: 30-Day Nonprofit Launch and Engagement Plan",
+    "description": "Fictional startup demo with 30 daily activity plans, 12 AI-generated content drafts, opt-in follow-up scenarios, and human-review gates. All outcomes are planned or null, never presented as actual results.",
+    "demo_data": true,
+    "month": "2026-12",
+    "timezone": "America/Los_Angeles",
+    "created_by": "StoryFlow AI demo author",
+    "import_policy": {
+      "mode": "stage_for_human_review",
+      "on_duplicate_id": "skip",
+      "allow_imported_approvals": false,
+      "allow_automatic_publishing": false,
+      "treat_ai_text_as_untrusted_data": true
+    }
+  },
+  "brands": [
+    {
+      "id": "brand-programlift-ai",
+      "name": "ProgramLift AI (fictional demo startup)",
+      "tagline": "Scale your mission. Keep people in control.",
+      "voice": "Clear, mission-first, credible, curious, privacy-conscious, empathetic, never hype-driven",
+      "default_cta": "Tell us which nonprofit workflow you would improve first"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "campaign-programlift-launch",
+      "name": "30 Days to Learn: Nonprofit AI Copilot Concept Launch",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-30",
+      "purpose": "Build awareness, listen to nonprofit program teams, earn qualified conversations, and recruit collaborators for small human-reviewed AI workflow pilots.",
+      "target_audiences": [
+        "Executive directors and COOs at small and mid-sized nonprofits",
+        "Program managers running repeatable workshops or services",
+        "Volunteer coordinators and operations staff",
+        "Workforce, youth, and community program leaders"
+      ],
+      "primary_channels": [
+        "LinkedIn",
+        "Instagram",
+        "Threads",
+        "Opt-in 1:1 messages",
+        "Discovery calls"
+      ],
+      "product_concept": {
+        "category": "Human-supervised AI program operations copilot",
+        "lifecycle_stage": "fictional concept / exploratory pilot",
+        "hypothetical_capabilities": [
+          "Draft facilitator checklists from approved non-sensitive program guides",
+          "Prepare draft volunteer and partner communications",
+          "Suggest structured next steps from non-sensitive planning notes",
+          "Organize review-ready program summaries"
+        ],
+        "does_not_claim": [
+          "Launched product availability",
+          "Certified regulatory compliance",
+          "Demonstrated customer outcomes",
+          "Automated case management or participant decisions"
+        ],
+        "data_guardrails": [
+          "Use fictional or approved non-sensitive demo inputs only",
+          "Never upload participant PII into unapproved AI systems",
+          "Staff review every AI draft and every external message",
+          "No automated outbound sending or publishing"
+        ]
+      },
+      "editorial_rules": [
+        "Do not invent testimonials, partnerships, measured improvements, or pricing",
+        "Do not treat AI-generated text as verified facts",
+        "Describe proposed features and mock screens as concepts",
+        "Human verification is required before scheduling and before any outreach",
+        "No personal information, unsolicited bulk messages, or automated DMs"
+      ]
+    }
+  ],
+  "story_themes": [
+    {
+      "id": "theme-mission-first",
+      "name": "Mission first, AI second",
+      "narrative": "Help nonprofit teams expand capacity by simplifying repeatable back-office tasks while preserving their community relationships.",
+      "story_arc": [
+        "Mission challenge",
+        "Workflow friction",
+        "Useful assistant",
+        "Human oversight",
+        "Question or invitation"
+      ],
+      "keywords": [
+        "mission",
+        "capacity",
+        "administration",
+        "staff time"
+      ]
+    },
+    {
+      "id": "theme-practical-workflows",
+      "name": "Practical program workflows",
+      "narrative": "Demonstrate specific and transparent examples of how non-sensitive input could become a review-ready draft.",
+      "story_arc": [
+        "Real task",
+        "Current effort",
+        "Illustrative AI draft",
+        "Human review",
+        "Practical next step"
+      ],
+      "keywords": [
+        "facilitator prep",
+        "reporting",
+        "communication",
+        "workflow"
+      ]
+    },
+    {
+      "id": "theme-human-control",
+      "name": "Human trust and verification",
+      "narrative": "Explain boundaries, privacy, review responsibilities, and the difference between drafts and decisions.",
+      "story_arc": [
+        "Trust question",
+        "Boundary",
+        "Human role",
+        "Safeguard",
+        "Invitation"
+      ],
+      "keywords": [
+        "responsible AI",
+        "review",
+        "privacy",
+        "nonprofit governance"
+      ]
+    },
+    {
+      "id": "theme-pilot-learning",
+      "name": "Small pilot, measurable learning",
+      "narrative": "Invite low-risk experiments and measure usefulness without inventing results.",
+      "story_arc": [
+        "Concrete opportunity",
+        "Tiny experiment",
+        "Human measurement",
+        "Decision",
+        "Invitation"
+      ],
+      "keywords": [
+        "pilot",
+        "discovery",
+        "evaluation",
+        "co-design"
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-12-approved-posts",
+      "campaign_id": "campaign-programlift-launch",
+      "title": "Produce 12 human-approved content pieces over 30 days",
+      "description": "Only verified, human-approved content items count; proposed slots and AI drafts do not.",
+      "metric": "human_approved_content_count",
+      "target": 12,
+      "starts_on": "2026-12-01",
+      "due_on": "2026-12-30",
+      "milestones": [
+        {
+          "id": "milestone-week-1",
+          "title": "Week 1: Launch and positioning",
+          "due_on": "2026-12-07",
+          "target_approved_items": 3
+        },
+        {
+          "id": "milestone-week-2",
+          "title": "Week 2: Show responsible use cases",
+          "due_on": "2026-12-14",
+          "target_approved_items": 3
+        },
+        {
+          "id": "milestone-week-3",
+          "title": "Week 3: Build trust and collect feedback",
+          "due_on": "2026-12-21",
+          "target_approved_items": 3
+        },
+        {
+          "id": "milestone-week-4",
+          "title": "Week 4: Pilot interest and conversions",
+          "due_on": "2026-12-30",
+          "target_approved_items": 3
+        }
+      ]
+    }
+  ],
+  "launch_targets": {
+    "all_values_are_aspirational": true,
+    "meaningful_public_conversations": 30,
+    "permission_based_one_to_one_conversations": 15,
+    "discovery_calls_requested": 8,
+    "qualified_pilot_candidate_organizations": 3,
+    "definition_of_qualified_pilot_candidate": "Nonprofit team with a clearly described, repeated, low-risk workflow, a named decision-maker, and explicit interest in a discovery conversation",
+    "tracking_note": "Targets are planning assumptions; actual results remain null until entered by a human."
+  },
+  "audience_segments": [
+    {
+      "id": "segment-leadership",
+      "role": "Executive Director or COO",
+      "pain_points": [
+        "limited staff capacity",
+        "program reporting burden",
+        "new technology risk"
+      ],
+      "relevant_message": "Scale work that already serves people without compromising accountability.",
+      "objection_to_address": "How much operational change would this require?"
+    },
+    {
+      "id": "segment-program",
+      "role": "Program Director",
+      "pain_points": [
+        "repeating curriculum setup",
+        "follow-up emails",
+        "document handoffs"
+      ],
+      "relevant_message": "Make the next workshop or cohort easier to prepare with review-ready drafts.",
+      "objection_to_address": "Will the draft reflect the nuances of our program?"
+    },
+    {
+      "id": "segment-operations",
+      "role": "Operations or Volunteer Coordinator",
+      "pain_points": [
+        "coordinating schedules",
+        "repeat messages",
+        "volunteer guidance"
+      ],
+      "relevant_message": "Standardize routine communication while staff still approve every message.",
+      "objection_to_address": "How will consent and sensitive information be protected?"
+    }
+  ],
+  "automation_templates": {
+    "enabled": false,
+    "execution_mode": "preview_only",
+    "note": "Use messages as samples or previews only. Human approval is needed before a notification or contact response is sent.",
+    "workflow_messages": [
+      {
+        "id": "message-review-needed",
+        "trigger": "ai_draft_submitted",
+        "recipient_role": "human_reviewer",
+        "channel": "in_app",
+        "subject": "Draft ready: {{content_title}}",
+        "body": "A proposed {{platform}} post for {{proposed_publish_at}} is ready for fact, brand, privacy and CTA verification. Approve or request edits."
+      },
+      {
+        "id": "message-revision",
+        "trigger": "human_requests_changes",
+        "recipient_role": "content_creator",
+        "channel": "in_app",
+        "subject": "Revisions requested: {{content_title}}",
+        "body": "Human review requested changes: {{review_feedback}}. Submit a new draft for a fresh approval."
+      },
+      {
+        "id": "message-approved",
+        "trigger": "human_approves",
+        "recipient_role": "content_creator",
+        "channel": "in_app",
+        "subject": "Approved: {{content_title}}",
+        "body": "Your draft has passed human review and may now be manually scheduled. It has not been published."
+      },
+      {
+        "id": "message-scheduled",
+        "trigger": "human_schedules",
+        "recipient_role": "content_creator",
+        "channel": "in_app",
+        "subject": "Publishing reminder: {{content_title}}",
+        "body": "{{content_title}} is scheduled for {{scheduled_publish_at}} on {{platform}}. Manual publishing is required."
+      }
+    ],
+    "audience_reply_templates": [
+      {
+        "id": "reply-info",
+        "intent": "how_it_works",
+        "platforms": [
+          "LinkedIn",
+          "Instagram",
+          "Threads"
+        ],
+        "draft_text": "ProgramLift AI is an exploratory concept for turning approved, non-sensitive program materials into drafts that staff can review. Which task are you most interested in simplifying?",
+        "human_send_required": true
+      },
+      {
+        "id": "reply-pilot",
+        "intent": "pilot_interest",
+        "platforms": [
+          "LinkedIn",
+          "Instagram",
+          "Threads"
+        ],
+        "draft_text": "Thanks for your interest! What type of program does your organization run, and which repeated task would you want to improve first? We can discuss whether an exploratory pilot makes sense.",
+        "human_send_required": true
+      },
+      {
+        "id": "reply-data",
+        "intent": "privacy_question",
+        "platforms": [
+          "LinkedIn",
+          "Instagram",
+          "Threads"
+        ],
+        "draft_text": "Important question. The demo uses only fictional, non-sensitive information. Before any real pilot, we'd agree on allowed data, review responsibilities, and appropriate safeguards. We can't claim a specific certification or compliance status.",
+        "human_send_required": true
+      },
+      {
+        "id": "reply-cost",
+        "intent": "pricing_question",
+        "platforms": [
+          "LinkedIn",
+          "Instagram",
+          "Threads"
+        ],
+        "draft_text": "We haven't established public pricing for this concept. We'd first want to understand the scope and workflows your team needs to evaluate.",
+        "human_send_required": true
+      },
+      {
+        "id": "reply-decline",
+        "intent": "not_interested",
+        "platforms": [
+          "LinkedIn",
+          "Instagram",
+          "Threads"
+        ],
+        "draft_text": "Understood, and thank you for the direct feedback. We won't send additional outreach about the concept.",
+        "human_send_required": true
+      }
+    ]
+  },
+  "content_items": [
+    {
+      "id": "content-01",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-1",
+      "theme_id": "theme-mission-first",
+      "title": "Why Mission-Driven Teams Need an AI Copilot",
+      "content_pillar": "Mission first, AI second",
+      "idea": {
+        "summary": "ProgramLift AI is a proposed human-reviewed assistant for nonprofit program operations.",
+        "audience": "Nonprofit executives and program leaders",
+        "objective": "Awareness and problem discovery",
+        "desired_action": "Comment with the workflow you would simplify first",
+        "priority": "high",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "founder_talking_head_video",
+        "duration_seconds": 45,
+        "story_framework": "question-problem-point-of-view-cta",
+        "opening_hook": "What if your nonprofit could spend less time on administration and more time delivering its mission?",
+        "core_tension": "Program leaders often repeat documentation and reporting work.",
+        "key_message": "ProgramLift AI is a proposed human-reviewed assistant for nonprofit program operations.",
+        "visual_style": "Founder speaking directly to nonprofit leaders; large question hook and simple workflow overlays",
+        "b_roll": [
+          "Paperwork and spreadsheet work (staged)",
+          "Program planning meeting (staged)"
+        ],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not imply the proposed product already has active nonprofit customers."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-01-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-20T10:00:00-08:00",
+        "task_prompt": "Draft founder talking head video content for LinkedIn using this hook: What if your nonprofit could spend less time on administration and more time delivering its mission? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"Why Mission-Driven Teams Need an AI Copilot\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "Why Mission-Driven Teams Need an AI Copilot",
+            "body": "What if your nonprofit could spend less time on administration and more time delivering its mission? Too many program teams are buried in repeated reporting, planning, and outreach work. We're exploring ProgramLift AI, a human-supervised copilot concept to help teams turn existing program materials into reusable workflows and draft communications. The goal isn't to replace staff judgment. It's to give mission-driven people more time for the people they serve. What would you simplify first?",
+            "estimated_seconds": 45
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "Nonprofits don't need another tool that adds work. They need support that helps existing programs go further while keeping people in charge. We're exploring ProgramLift AI, a human-reviewed copilot for program operations. Which repetitive task would you take off your team's plate first?",
+              "hashtags": [
+                "#NonprofitLeadership",
+                "#ResponsibleAI",
+                "#ProgramOperations"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-01T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-02",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-1",
+      "theme_id": "theme-mission-first",
+      "title": "Five Program Tasks That Drain Capacity",
+      "content_pillar": "Mission first, AI second",
+      "idea": {
+        "summary": "Identify candidate workflows for responsible automation.",
+        "audience": "Nonprofit executives and program leaders",
+        "objective": "Awareness and problem discovery",
+        "desired_action": "Ask readers to name their biggest bottleneck",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "carousel",
+        "duration_seconds": null,
+        "story_framework": "question-problem-point-of-view-cta",
+        "opening_hook": "How much staff time disappears into work that looks the same every week?",
+        "core_tension": "Manual coordination can compete with delivering services.",
+        "key_message": "Identify candidate workflows for responsible automation.",
+        "visual_style": "Clean five-slide list with generic workflow illustrations",
+        "b_roll": [],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not make quantified time-savings claims without a study."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-02-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-20T10:00:00-08:00",
+        "task_prompt": "Draft carousel content for LinkedIn using this hook: How much staff time disappears into work that looks the same every week? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"Five Program Tasks That Drain Capacity\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "Five Program Tasks That Drain Capacity",
+            "body": "Slide 1: Five repetitive tasks your nonprofit may want to simplify.\nSlide 2: Turning meeting notes into action lists.\nSlide 3: Preparing program reminders and volunteer briefings.\nSlide 4: Drafting plain-language updates for funders and partners.\nSlide 5: Organizing non-sensitive outcome summaries for human review. Which one slows you down?",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "Program growth isn't always about doing more. Sometimes it's about removing friction from what already works. These five tasks are starting points for an AI-assisted workflow discussion—not a recommendation to upload sensitive participant data. Which is your biggest bottleneck?",
+              "hashtags": [
+                "#NonprofitOperations",
+                "#AICopilot"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-03T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-03",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-1",
+      "theme_id": "theme-human-control",
+      "title": "AI Should Support Staff, Not Replace Their Judgment",
+      "content_pillar": "Human trust and verification",
+      "idea": {
+        "summary": "Humans remain accountable for sensitive decisions and public statements.",
+        "audience": "Nonprofit executives and program leaders",
+        "objective": "Awareness and problem discovery",
+        "desired_action": "Invite replies on non-negotiable review gates",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "short_text_post",
+        "duration_seconds": null,
+        "story_framework": "question-problem-point-of-view-cta",
+        "opening_hook": "If AI can't explain its draft, who is accountable for the final decision?",
+        "core_tension": "People may hesitate to adopt AI for consequential nonprofit work.",
+        "key_message": "Humans remain accountable for sensitive decisions and public statements.",
+        "visual_style": "Plain conversational text, no stock imagery",
+        "b_roll": [],
+        "editing_notes": [
+          "Keep full Threads text under 500 characters including hashtags.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Avoid claims of formal regulatory compliance."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-03-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-20T10:00:00-08:00",
+        "task_prompt": "Draft short text post content for Threads using this hook: If AI can't explain its draft, who is accountable for the final decision? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for Threads: \"AI Should Support Staff, Not Replace Their Judgment\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "AI Should Support Staff, Not Replace Their Judgment",
+            "body": "An AI draft isn't an approved decision. In nonprofit programs, people must stay responsible for what gets sent, reported, or acted on. The opportunity is to use AI to prepare work while protecting judgment, relationships, and trust. Where should the human review step be non-negotiable?",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "Threads",
+              "text": "An AI draft isn't an approved decision. In nonprofit programs, people must stay responsible for what gets sent, reported, or acted on. The opportunity is to use AI to prepare work while protecting judgment, relationships, and trust. Where should the human review step be non-negotiable?",
+              "hashtags": []
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "Threads",
+        "proposed_publish_at": "2026-12-05T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to Threads users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-04",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-2",
+      "theme_id": "theme-practical-workflows",
+      "title": "A Program Director's Monday: Before and After",
+      "content_pillar": "Practical program workflows",
+      "idea": {
+        "summary": "Illustrate a fictional workflow that a human validates before use.",
+        "audience": "Nonprofit executives and program leaders",
+        "objective": "Awareness and problem discovery",
+        "desired_action": "Invite replies describing recurring Monday work",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "story_carousel",
+        "duration_seconds": null,
+        "story_framework": "problem-use-case-human-guardrail-cta",
+        "opening_hook": "What if Monday's program admin started with drafts instead of a blank page?",
+        "core_tension": "Staff start from scratch on recurring tasks.",
+        "key_message": "Illustrate a fictional workflow that a human validates before use.",
+        "visual_style": "Side-by-side workflow cards labeled ILLUSTRATIVE",
+        "b_roll": [],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Clearly label the scenario as fictional; do not present it as a customer testimonial."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-04-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-21T10:00:00-08:00",
+        "task_prompt": "Draft story carousel content for LinkedIn using this hook: What if Monday's program admin started with drafts instead of a blank page? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"A Program Director's Monday: Before and After\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "A Program Director's Monday: Before and After",
+            "body": "Slide 1: A program director's Monday—illustrative scenario.\nSlide 2: Before: compile workshop notes, write reminder emails, update task list.\nSlide 3: AI-assisted draft: organize notes, suggest follow-ups, draft messages.\nSlide 4: Human checks facts, tone, recipient list, and any sensitive details.\nSlide 5: Staff approve the next actions and focus on delivery. What would your Monday look like?",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "Here's a fictional 'before and after' for a nonprofit program director. The AI step prepares drafts; staff review facts and sensitive context before anything is sent. The most useful workflow starts with your real process—not a generic chatbot.",
+              "hashtags": [
+                "#NonprofitTech",
+                "#HumanInTheLoop"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-08T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-05",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-2",
+      "theme_id": "theme-practical-workflows",
+      "title": "90-Second Product Concept Walkthrough",
+      "content_pillar": "Practical program workflows",
+      "idea": {
+        "summary": "Illustrate an envisioned upload-draft-review-export workflow.",
+        "audience": "Nonprofit executives and program leaders",
+        "objective": "Awareness and problem discovery",
+        "desired_action": "Invite people to describe one pilot workflow",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "screen_demo_script",
+        "duration_seconds": 60,
+        "story_framework": "problem-use-case-human-guardrail-cta",
+        "opening_hook": "What could an AI assistant do with a program guide—without making decisions for your team?",
+        "core_tension": "Generic AI chat tools lack process and approval context.",
+        "key_message": "Illustrate an envisioned upload-draft-review-export workflow.",
+        "visual_style": "Locally rendered mock UI with a visible 'Concept demo' label",
+        "b_roll": [
+          "Mock document upload screen",
+          "Review checklist screen",
+          "Approved draft preview"
+        ],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Label all mockups clearly as concept screens."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-05-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-21T10:00:00-08:00",
+        "task_prompt": "Draft screen demo script content for LinkedIn using this hook: What could an AI assistant do with a program guide—without making decisions for your team? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"90-Second Product Concept Walkthrough\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "90-Second Product Concept Walkthrough",
+            "body": "Picture this: a program director adds an approved, non-sensitive workshop outline. ProgramLift AI proposes a facilitator checklist, a volunteer briefing, and a draft partner update. Each item enters a review queue. A human adjusts the language, checks details, and approves what is ready. Only then is it available to use. This is a concept walkthrough—not a live product demonstration. If your team could prototype one workflow, which would you choose?",
+            "estimated_seconds": 60
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "An AI feature is useful only when it fits the way a program actually runs. Here's our envisioned workflow: approved materials in, drafts out, human review before use. This is a concept mockup, and we're looking for feedback from nonprofit operators.",
+              "hashtags": [
+                "#AIForNonprofits",
+                "#ProductDiscovery"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-10T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-06",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-2",
+      "theme_id": "theme-human-control",
+      "title": "What AI Should—and Shouldn't—Handle",
+      "content_pillar": "Human trust and verification",
+      "idea": {
+        "summary": "Use AI for drafts and organization; reserve judgment and sensitive decisions for people.",
+        "audience": "Nonprofit executives and program leaders",
+        "objective": "Awareness and problem discovery",
+        "desired_action": "Save and share the human review checklist",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "carousel",
+        "duration_seconds": null,
+        "story_framework": "problem-use-case-human-guardrail-cta",
+        "opening_hook": "Not every nonprofit task should be delegated to AI.",
+        "core_tension": "Unclear boundaries create privacy and quality risk.",
+        "key_message": "Use AI for drafts and organization; reserve judgment and sensitive decisions for people.",
+        "visual_style": "Two-column 'draft support' versus 'human decision' cards",
+        "b_roll": [],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Treat examples as general guidance, not legal or compliance certification."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-06-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-21T10:00:00-08:00",
+        "task_prompt": "Draft carousel content for Instagram using this hook: Not every nonprofit task should be delegated to AI. Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for Instagram: \"What AI Should—and Shouldn't—Handle\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "What AI Should—and Shouldn't—Handle",
+            "body": "Slide 1: What AI can draft vs. what people must decide.\nSlide 2: AI may summarize non-sensitive process notes.\nSlide 3: AI may draft reminders and outreach for review.\nSlide 4: Humans confirm eligibility, safeguarding, spending, and other consequential decisions.\nSlide 5: Keep sensitive personal data out of unapproved AI workflows. Save this checklist.",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "Instagram",
+              "text": "The best AI workflows make accountability clearer, not weaker. Start with low-risk drafts, require human review, and protect participant information. What task would you never fully automate?",
+              "hashtags": [
+                "#ResponsibleAI",
+                "#NonprofitLeadership"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "Instagram",
+        "proposed_publish_at": "2026-12-12T11:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to Instagram users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-07",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-3",
+      "theme_id": "theme-practical-workflows",
+      "title": "Nonprofit Workflow Pain-Point Poll",
+      "content_pillar": "Practical program workflows",
+      "idea": {
+        "summary": "Learn which workflows stakeholders want help with first.",
+        "audience": "Program managers, staff, and nonprofit operations teams",
+        "objective": "Trust and engagement",
+        "desired_action": "Vote and describe the constraint",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "interactive_poll_post",
+        "duration_seconds": null,
+        "story_framework": "problem-use-case-human-guardrail-cta",
+        "opening_hook": "If you got five staff hours back next week, where would they go?",
+        "core_tension": "Teams have different administrative bottlenecks.",
+        "key_message": "Learn which workflows stakeholders want help with first.",
+        "visual_style": "Native poll; optional static graphic with options",
+        "b_roll": [],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not imply poll results constitute representative research."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-07-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-22T10:00:00-08:00",
+        "task_prompt": "Draft interactive poll post content for LinkedIn using this hook: If you got five staff hours back next week, where would they go? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"Nonprofit Workflow Pain-Point Poll\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "Nonprofit Workflow Pain-Point Poll",
+            "body": "Poll question: Which recurring task most needs better support?\nOption A: Reporting and documentation.\nOption B: Volunteer communications.\nOption C: Facilitator preparation.\nOption D: Partner and donor updates.\nFollow-up comment: Tell us what makes this task difficult today.",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "We're designing around real nonprofit workflows, not AI hype. Vote for the recurring task that creates the most friction for your team—and tell us what 'better' would look like in the comments.",
+              "hashtags": [
+                "#NonprofitInnovation",
+                "#ProductResearch"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-15T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-08",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-3",
+      "theme_id": "theme-human-control",
+      "title": "The Trust Questions Nonprofits Should Ask AI Vendors",
+      "content_pillar": "Human trust and verification",
+      "idea": {
+        "summary": "Demonstrate a thoughtful vendor-evaluation rubric.",
+        "audience": "Program managers, staff, and nonprofit operations teams",
+        "objective": "Trust and engagement",
+        "desired_action": "Invite additional trust questions",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "carousel",
+        "duration_seconds": null,
+        "story_framework": "problem-use-case-human-guardrail-cta",
+        "opening_hook": "Before you try an AI tool, ask these five questions.",
+        "core_tension": "Nonprofits must protect participant trust and program quality.",
+        "key_message": "Demonstrate a thoughtful vendor-evaluation rubric.",
+        "visual_style": "Trust checklist cards with transparent question marks, no compliance badges",
+        "b_roll": [],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not claim SOC 2, HIPAA, FERPA, or GDPR compliance for a fictional concept."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-08-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-22T10:00:00-08:00",
+        "task_prompt": "Draft carousel content for LinkedIn using this hook: Before you try an AI tool, ask these five questions. Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"The Trust Questions Nonprofits Should Ask AI Vendors\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "The Trust Questions Nonprofits Should Ask AI Vendors",
+            "body": "Slide 1: Five trust questions to ask an AI vendor.\nSlide 2: What data is collected, stored, and shared?\nSlide 3: Can staff inspect and revise every AI draft?\nSlide 4: How are errors reported and corrected?\nSlide 5: Who is responsible for final decisions and exports? Ask for clear answers before any pilot.",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "AI adoption starts with good questions. A nonprofit's responsibility to its community does not disappear because a tool drafts the work. Here are the questions we're using to shape ProgramLift AI's concept.",
+              "hashtags": [
+                "#AITrust",
+                "#NonprofitGovernance"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-17T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-09",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-3",
+      "theme_id": "theme-mission-first",
+      "title": "Accessibility Is Part of Scaling Impact",
+      "content_pillar": "Mission first, AI second",
+      "idea": {
+        "summary": "Accessible plain language and reviewed translations can expand reach.",
+        "audience": "Program managers, staff, and nonprofit operations teams",
+        "objective": "Trust and engagement",
+        "desired_action": "Ask about common accessibility barriers",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "vertical_short_video",
+        "duration_seconds": 35,
+        "story_framework": "problem-use-case-human-guardrail-cta",
+        "opening_hook": "If your program grows, can more people actually use its materials?",
+        "core_tension": "Program resources are often too complex for some audiences.",
+        "key_message": "Accessible plain language and reviewed translations can expand reach.",
+        "visual_style": "Talking head with accessible captions and readable text overlays",
+        "b_roll": [
+          "Simple approved document mockup",
+          "Human reviewer comparing language versions"
+        ],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not promise automated translation quality or accessibility conformance."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-09-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-22T10:00:00-08:00",
+        "task_prompt": "Draft vertical short video content for Instagram using this hook: If your program grows, can more people actually use its materials? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for Instagram: \"Accessibility Is Part of Scaling Impact\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "Accessibility Is Part of Scaling Impact",
+            "body": "What does it really mean to scale a program? It's not just serving more people. It's making information easier to understand and use. AI may help teams draft a plain-language version or a translated starting point—but a qualified human must check meaning, cultural context, and accuracy before distribution. Better access still depends on people. What language or format need comes up most in your work?",
+            "estimated_seconds": 35
+          },
+          "captions": [
+            {
+              "platform": "Instagram",
+              "text": "Scaling programs includes access. Plain-language drafts and translations can help—but only with careful human checks for accuracy and cultural fit. What accessibility barrier is your team working to remove?",
+              "hashtags": [
+                "#Accessibility",
+                "#CommunityPrograms"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "Instagram",
+        "proposed_publish_at": "2026-12-19T11:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to Instagram users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-10",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-4",
+      "theme_id": "theme-pilot-learning",
+      "title": "A 14-Day Low-Risk Nonprofit AI Pilot",
+      "content_pillar": "Small pilot, measurable learning",
+      "idea": {
+        "summary": "Propose a narrow, staff-led experiment with measurable review outcomes.",
+        "audience": "Nonprofit decision-makers considering an exploratory pilot",
+        "objective": "Qualified discovery conversations",
+        "desired_action": "Invite organizations to discuss a pilot workflow",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "carousel",
+        "duration_seconds": null,
+        "story_framework": "practical-pilot-next-step",
+        "opening_hook": "You don't need to reinvent your entire nonprofit to test one AI workflow.",
+        "core_tension": "Leaders hesitate to launch large disruptive digital projects.",
+        "key_message": "Propose a narrow, staff-led experiment with measurable review outcomes.",
+        "visual_style": "Five-step roadmap carousel labeled PROPOSED PILOT",
+        "b_roll": [],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "The 14-day plan is a proposed framework, not evidence of validated implementation outcomes."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-10-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-23T10:00:00-08:00",
+        "task_prompt": "Draft carousel content for LinkedIn using this hook: You don't need to reinvent your entire nonprofit to test one AI workflow. Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"A 14-Day Low-Risk Nonprofit AI Pilot\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "A 14-Day Low-Risk Nonprofit AI Pilot",
+            "body": "Slide 1: A small AI pilot beats a vague transformation plan.\nSlide 2: Days 1–3: map one repetitive, low-risk task.\nSlide 3: Days 4–7: create drafts using approved non-sensitive materials.\nSlide 4: Days 8–11: measure corrections, review effort, and usefulness.\nSlide 5: Days 12–14: decide what to keep, change, or stop. Staff own the decision.",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "Start small. Pick one repetitive workflow, use approved non-sensitive materials, and measure what staff actually find useful. Here's a proposed 14-day pilot framework for nonprofits exploring AI responsibly.",
+              "hashtags": [
+                "#NonprofitStrategy",
+                "#AIPilot"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-22T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-11",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-4",
+      "theme_id": "theme-pilot-learning",
+      "title": "Measure Staff Value, Not AI Hype",
+      "content_pillar": "Small pilot, measurable learning",
+      "idea": {
+        "summary": "Judge pilots by review burden, corrected errors, team usefulness, and program outcomes.",
+        "audience": "Nonprofit decision-makers considering an exploratory pilot",
+        "objective": "Qualified discovery conversations",
+        "desired_action": "Ask readers what they would measure",
+        "priority": "medium",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "short_text_post",
+        "duration_seconds": null,
+        "story_framework": "practical-pilot-next-step",
+        "opening_hook": "The right AI metric for a nonprofit isn't how many prompts the team sends.",
+        "core_tension": "Vanity AI usage metrics can obscure staff experience.",
+        "key_message": "Judge pilots by review burden, corrected errors, team usefulness, and program outcomes.",
+        "visual_style": "Text-first perspective post",
+        "b_roll": [],
+        "editing_notes": [
+          "Keep full Threads text under 500 characters including hashtags.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not state hypothetical efficiencies as observed results."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-11-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-23T10:00:00-08:00",
+        "task_prompt": "Draft short text post content for Threads using this hook: The right AI metric for a nonprofit isn't how many prompts the team sends. Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for Threads: \"Measure Staff Value, Not AI Hype\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "Measure Staff Value, Not AI Hype",
+            "body": "For nonprofits, 'we used AI 500 times' is not an impact metric. Ask: Did staff find the drafts useful? How many corrections were needed? Did the workflow protect privacy? Did it create more time for human service? Measure what improves the mission—not what makes the technology look impressive.",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "Threads",
+              "text": "For nonprofits, 'we used AI 500 times' is not an impact metric. Ask: Did staff find the drafts useful? How many corrections were needed? Did the workflow protect privacy? Did it create more time for human service? Measure what improves the mission—not what makes the technology look impressive.",
+              "hashtags": []
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "Threads",
+        "proposed_publish_at": "2026-12-24T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to Threads users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    },
+    {
+      "id": "content-12",
+      "campaign_id": "campaign-programlift-launch",
+      "brand_id": "brand-programlift-ai",
+      "goal_id": "goal-12-approved-posts",
+      "milestone_id": "milestone-week-4",
+      "theme_id": "theme-pilot-learning",
+      "title": "Invitation: Help Shape the First ProgramLift Pilot",
+      "content_pillar": "Small pilot, measurable learning",
+      "idea": {
+        "summary": "Invite discovery conversations with nonprofit leaders who want to co-design an ethical pilot.",
+        "audience": "Nonprofit decision-makers considering an exploratory pilot",
+        "objective": "Qualified discovery conversations",
+        "desired_action": "Reply PILOT to request a manual discovery conversation",
+        "priority": "high",
+        "tags": [
+          "nonprofit",
+          "ai-copilot",
+          "human-review"
+        ]
+      },
+      "creative_direction": {
+        "format": "founder_talking_head_video",
+        "duration_seconds": 45,
+        "story_framework": "practical-pilot-next-step",
+        "opening_hook": "What if your next program improvement started with one workflow, not another giant platform rollout?",
+        "core_tension": "Nonprofits need practical tools shaped by actual users.",
+        "key_message": "Invite discovery conversations with nonprofit leaders who want to co-design an ethical pilot.",
+        "visual_style": "Founder-led invitation with clear 'Exploratory pilot' disclosure",
+        "b_roll": [
+          "Whiteboard mapping one workflow",
+          "Review queue concept screen"
+        ],
+        "editing_notes": [
+          "Use plain language, accessible on-screen text, and offline/local assets.",
+          "Mark fictional concepts and mockups clearly; do not imply real customers."
+        ],
+        "claims_to_verify": [
+          "Do not imply an enrollment deadline, guaranteed pilot acceptance, or a live finished product."
+        ]
+      },
+      "ai_work": {
+        "submission_id": "submission-12-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "ProgramLift Demo Content Agent",
+        "model": "sample_output_no_live_model_call",
+        "submitted_at": "2026-11-23T10:00:00-08:00",
+        "task_prompt": "Draft founder talking head video content for LinkedIn using this hook: What if your next program improvement started with one workflow, not another giant platform rollout? Show a human-controlled AI workflow for nonprofits. Do not assert the concept is a shipping product.",
+        "response_message": "Draft prepared for LinkedIn: \"Invitation: Help Shape the First ProgramLift Pilot\". Human editorial, factual, and rights review required.",
+        "deliverables": {
+          "script": {
+            "title": "Invitation: Help Shape the First ProgramLift Pilot",
+            "body": "What if your next program improvement started with one workflow instead of an entirely new platform? We're exploring ProgramLift AI with a simple principle: AI can draft, but your team decides. We're looking to learn from nonprofit leaders who manage workshops, volunteer teams, outreach, and reporting. Share the task your team repeats every week. We'll discuss whether it makes sense to design a small, human-reviewed pilot together. No grand promises—just a useful conversation.",
+            "estimated_seconds": 45
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "We're looking to learn from nonprofit leaders about the daily work behind great programs. If you could improve one workflow with human-reviewed AI assistance, what would it be? Reply 'PILOT' or send a message to start a conversation. This is an exploratory concept, not a claim of a finished product.",
+              "hashtags": [
+                "#AIForGood",
+                "#NonprofitInnovation",
+                "#BuildWithUsers"
+              ]
+            }
+          ],
+          "suggested_audience_replies": [
+            {
+              "intent": "thoughtful_question",
+              "text": "Thanks for raising that. We're exploring this as a concept with nonprofit operators. Which part of your existing workflow would you want a human to review most carefully?",
+              "human_send_required": true
+            },
+            {
+              "intent": "interest_in_pilot",
+              "text": "Appreciate your interest. What's one existing program workflow your team repeats each week? If helpful, we can arrange a short discovery conversation to learn about it.",
+              "human_send_required": true
+            }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": {
+          "accuracy": "unchecked",
+          "story_alignment": "unchecked",
+          "audience_value": "unchecked",
+          "cta_and_rights": "unchecked"
+        }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-29T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": [
+          "Does this clearly describe a proposed product rather than a live case study?",
+          "Does the content speak to LinkedIn users in a useful way?",
+          "Have all privacy, endorsement, and outcomes claims been checked?"
+        ],
+        "suggested_quality_scores": null,
+        "performance_metrics": {
+          "views": null,
+          "engagements": null,
+          "inquiries": null
+        }
+      }
+    }
+  ],
+  "daily_plan": [
+    {
+      "id": "day-01",
+      "day_number": 1,
+      "date": "2026-12-01",
+      "phase": "awareness_and_listening",
+      "focus": "Establish positioning",
+      "content_item_ids": [
+        "content-01"
+      ],
+      "marketing_tasks": [
+        "Finalize one-sentence value proposition and publish the founder launch introduction."
+      ],
+      "engagement_tasks": [
+        "Answer substantive comments and record recurring pain points."
+      ],
+      "follow_up_tasks": [
+        "Identify five aligned nonprofits for individual research."
+      ],
+      "human_verification_tasks": [
+        "Verify that all claims describe a concept, not a shipped product."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-02",
+      "day_number": 2,
+      "date": "2026-12-02",
+      "phase": "awareness_and_listening",
+      "focus": "Map audiences",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Define three segments: executive directors, program managers, and operations leads."
+      ],
+      "engagement_tasks": [
+        "Write thoughtful comments on five nonprofit operations conversations."
+      ],
+      "follow_up_tasks": [
+        "Prepare three personalized, unsent introductions based on each group's work."
+      ],
+      "human_verification_tasks": [
+        "Review consent, privacy, and outreach boundaries."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-03",
+      "day_number": 3,
+      "date": "2026-12-03",
+      "phase": "awareness_and_listening",
+      "focus": "Name the bottlenecks",
+      "content_item_ids": [
+        "content-02"
+      ],
+      "marketing_tasks": [
+        "Publish the five-task carousel and invite specific examples."
+      ],
+      "engagement_tasks": [
+        "Respond individually to replies without sales pressure."
+      ],
+      "follow_up_tasks": [
+        "Send no more than three human-approved messages to warm contacts."
+      ],
+      "human_verification_tasks": [
+        "Check that no time-saving statistic is invented."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-04",
+      "day_number": 4,
+      "date": "2026-12-04",
+      "phase": "awareness_and_listening",
+      "focus": "Build an insight log",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Summarize themes from public discussions in an anonymized notes document."
+      ],
+      "engagement_tasks": [
+        "Ask follow-up questions on genuine responses."
+      ],
+      "follow_up_tasks": [
+        "Review warm introductions; stop follow-ups on declined interest."
+      ],
+      "human_verification_tasks": [
+        "Verify that outreach notes contain no client/participant identifiers."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-05",
+      "day_number": 5,
+      "date": "2026-12-05",
+      "phase": "awareness_and_listening",
+      "focus": "State the human-in-loop principle",
+      "content_item_ids": [
+        "content-03"
+      ],
+      "marketing_tasks": [
+        "Publish a short post on accountability in AI-driven nonprofit workflows."
+      ],
+      "engagement_tasks": [
+        "Respond to concerns with questions rather than guarantees."
+      ],
+      "follow_up_tasks": [
+        "If invited, share a one-page concept summary manually."
+      ],
+      "human_verification_tasks": [
+        "Validate privacy and governance language."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-06",
+      "day_number": 6,
+      "date": "2026-12-06",
+      "phase": "awareness_and_listening",
+      "focus": "Prepare the concept storyboard",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Outline the upload-draft-review-export concept screen flow."
+      ],
+      "engagement_tasks": [
+        "Join two relevant operator conversations with helpful comments."
+      ],
+      "follow_up_tasks": [
+        "Draft a response to the top adoption objection."
+      ],
+      "human_verification_tasks": [
+        "Check any concept visual is clearly labeled as illustrative."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-07",
+      "day_number": 7,
+      "date": "2026-12-07",
+      "phase": "awareness_and_listening",
+      "focus": "Review week-one learning",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Review reach, substantive replies, and questions; update messaging hypotheses."
+      ],
+      "engagement_tasks": [
+        "Thank people who offered feedback; no generic batch DMs."
+      ],
+      "follow_up_tasks": [
+        "List interested contacts and the next permission-based action."
+      ],
+      "human_verification_tasks": [
+        "Evaluate first milestone; approve only reviewed content."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 0
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-08",
+      "day_number": 8,
+      "date": "2026-12-08",
+      "phase": "workflow_education",
+      "focus": "Illustrate the workflow",
+      "content_item_ids": [
+        "content-04"
+      ],
+      "marketing_tasks": [
+        "Publish a clearly fictional program-director scenario."
+      ],
+      "engagement_tasks": [
+        "Invite operators to describe which step reflects their experience."
+      ],
+      "follow_up_tasks": [
+        "Offer a short feedback call only to people who show interest."
+      ],
+      "human_verification_tasks": [
+        "Check fictional scenario labeling."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-09",
+      "day_number": 9,
+      "date": "2026-12-09",
+      "phase": "workflow_education",
+      "focus": "Create a simple concept prototype",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Make three static mock screens of upload, draft, and review."
+      ],
+      "engagement_tasks": [
+        "Ask two program managers for feedback on the flow."
+      ],
+      "follow_up_tasks": [
+        "Follow up once with interested Day 3 commenters if they welcomed it."
+      ],
+      "human_verification_tasks": [
+        "Check that prototype uses no real participant information."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-10",
+      "day_number": 10,
+      "date": "2026-12-10",
+      "phase": "workflow_education",
+      "focus": "Show a walkthrough",
+      "content_item_ids": [
+        "content-05"
+      ],
+      "marketing_tasks": [
+        "Publish a video of the concept mockup with explicit disclosure."
+      ],
+      "engagement_tasks": [
+        "Collect top three feature objections in an insight log."
+      ],
+      "follow_up_tasks": [
+        "Invite interested respondents to a 15-minute discovery conversation."
+      ],
+      "human_verification_tasks": [
+        "Check that the walkthrough does not claim production functionality."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-11",
+      "day_number": 11,
+      "date": "2026-12-11",
+      "phase": "workflow_education",
+      "focus": "Develop a practical FAQ",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Draft answers to pricing, safeguards, onboarding, and staff time questions as hypotheses."
+      ],
+      "engagement_tasks": [
+        "Reply to high-quality questions; document requests for specifics."
+      ],
+      "follow_up_tasks": [
+        "Send a requested FAQ link or copy only when permission is clear."
+      ],
+      "human_verification_tasks": [
+        "Do not invent prices, certifications, or integrations."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-12",
+      "day_number": 12,
+      "date": "2026-12-12",
+      "phase": "workflow_education",
+      "focus": "Clarify boundaries",
+      "content_item_ids": [
+        "content-06"
+      ],
+      "marketing_tasks": [
+        "Publish AI-versus-human responsibilities carousel."
+      ],
+      "engagement_tasks": [
+        "Ask which decisions must always remain human-led."
+      ],
+      "follow_up_tasks": [
+        "Follow up with consented contacts who requested the responsible-AI checklist."
+      ],
+      "human_verification_tasks": [
+        "Verify guidance doesn't constitute legal or clinical advice."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-13",
+      "day_number": 13,
+      "date": "2026-12-13",
+      "phase": "workflow_education",
+      "focus": "Prepare next-week interview guide",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Create five discovery questions about workflow, staff pain, data sensitivity, and success metrics."
+      ],
+      "engagement_tasks": [
+        "Engage with program operators' real workflow posts."
+      ],
+      "follow_up_tasks": [
+        "Invite two warm connections to share feedback, without automated sending."
+      ],
+      "human_verification_tasks": [
+        "Remove personal data from research notes."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-14",
+      "day_number": 14,
+      "date": "2026-12-14",
+      "phase": "workflow_education",
+      "focus": "Review learning and response quality",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Summarize objections, content engagement, and requests into an internal brief."
+      ],
+      "engagement_tasks": [
+        "Close any unanswered public questions thoughtfully."
+      ],
+      "follow_up_tasks": [
+        "Mark nonresponses for pause unless an agreed follow-up remains."
+      ],
+      "human_verification_tasks": [
+        "Reassess which claims require external proof."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 0
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-15",
+      "day_number": 15,
+      "date": "2026-12-15",
+      "phase": "trust_and_discovery",
+      "focus": "Ask the audience directly",
+      "content_item_ids": [
+        "content-07"
+      ],
+      "marketing_tasks": [
+        "Publish a workflow pain-point poll."
+      ],
+      "engagement_tasks": [
+        "Ask one open-ended follow-up question per substantive reply."
+      ],
+      "follow_up_tasks": [
+        "Invite interested voters to elaborate privately only after they opt in."
+      ],
+      "human_verification_tasks": [
+        "Confirm poll is labeled informal, not representative research."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-16",
+      "day_number": 16,
+      "date": "2026-12-16",
+      "phase": "trust_and_discovery",
+      "focus": "Segment common use cases",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Group volunteered tasks into reporting, facilitator prep, outreach, and onboarding."
+      ],
+      "engagement_tasks": [
+        "Share a useful summary of poll themes without identifying people."
+      ],
+      "follow_up_tasks": [
+        "Draft tailored follow-up questions for each opt-in segment."
+      ],
+      "human_verification_tasks": [
+        "Verify no respondents are represented as endorsing the product."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-17",
+      "day_number": 17,
+      "date": "2026-12-17",
+      "phase": "trust_and_discovery",
+      "focus": "Publish the trust checklist",
+      "content_item_ids": [
+        "content-08"
+      ],
+      "marketing_tasks": [
+        "Post five questions nonprofit teams should ask AI vendors."
+      ],
+      "engagement_tasks": [
+        "Answer data-handling questions transparently about what is not yet implemented."
+      ],
+      "follow_up_tasks": [
+        "Share the checklist with contacts who requested it."
+      ],
+      "human_verification_tasks": [
+        "Block all unsupported compliance or privacy assurances."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-18",
+      "day_number": 18,
+      "date": "2026-12-18",
+      "phase": "trust_and_discovery",
+      "focus": "Prepare a human-review demo",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Create example draft/review screens with made-up, non-sensitive sample text."
+      ],
+      "engagement_tasks": [
+        "Ask operators which checklist items would help them."
+      ],
+      "follow_up_tasks": [
+        "Invite interested contacts to inspect the concept screens."
+      ],
+      "human_verification_tasks": [
+        "Ensure mocked data cannot identify any participant."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-19",
+      "day_number": 19,
+      "date": "2026-12-19",
+      "phase": "trust_and_discovery",
+      "focus": "Talk about accessibility",
+      "content_item_ids": [
+        "content-09"
+      ],
+      "marketing_tasks": [
+        "Publish the accessible-language and translation review video."
+      ],
+      "engagement_tasks": [
+        "Ask about languages and accessible formats used by real programs."
+      ],
+      "follow_up_tasks": [
+        "Offer a conversation to contacts who explicitly ask for more."
+      ],
+      "human_verification_tasks": [
+        "Verify statements about translation limits and review needs."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-20",
+      "day_number": 20,
+      "date": "2026-12-20",
+      "phase": "trust_and_discovery",
+      "focus": "Build a pilot scorecard",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Draft a one-page scorecard for draft usefulness, correction count, and staff feedback."
+      ],
+      "engagement_tasks": [
+        "Get two practitioners' comments on which measurements matter."
+      ],
+      "follow_up_tasks": [
+        "Request a call with interested people only when appropriate."
+      ],
+      "human_verification_tasks": [
+        "Validate scoring is a proposal, not achieved performance."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-21",
+      "day_number": 21,
+      "date": "2026-12-21",
+      "phase": "trust_and_discovery",
+      "focus": "Review the trust-and-learning milestone",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Compare week-three engagement, objections, and interest against targets."
+      ],
+      "engagement_tasks": [
+        "Thank contributors and record unresolved questions."
+      ],
+      "follow_up_tasks": [
+        "Update follow-up status with respectful pauses and opt-outs."
+      ],
+      "human_verification_tasks": [
+        "Check human approval log for every published proposal."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 0
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-22",
+      "day_number": 22,
+      "date": "2026-12-22",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Offer a small pilot structure",
+      "content_item_ids": [
+        "content-10"
+      ],
+      "marketing_tasks": [
+        "Publish the proposed 14-day pilot workflow carousel."
+      ],
+      "engagement_tasks": [
+        "Ask which task would be safe to pilot first."
+      ],
+      "follow_up_tasks": [
+        "Offer a scoped discovery call to contacts who expressed interest."
+      ],
+      "human_verification_tasks": [
+        "Keep the pilot framed as proposed rather than available by default."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-23",
+      "day_number": 23,
+      "date": "2026-12-23",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Prepare discovery-call materials",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Build agenda: current workflow, desired outcome, guardrails, pilot constraints, next steps."
+      ],
+      "engagement_tasks": [
+        "Respond to requests for an agenda or concept summary."
+      ],
+      "follow_up_tasks": [
+        "Send a requested calendar invitation manually to confirmed attendees."
+      ],
+      "human_verification_tasks": [
+        "Ensure the invitation doesn't promise product functionality."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-24",
+      "day_number": 24,
+      "date": "2026-12-24",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Discuss meaningful evaluation",
+      "content_item_ids": [
+        "content-11"
+      ],
+      "marketing_tasks": [
+        "Publish the post on useful staff-centered AI metrics."
+      ],
+      "engagement_tasks": [
+        "Ask how teams evaluate administrative improvements today."
+      ],
+      "follow_up_tasks": [
+        "Recontact previously engaged leads only if they asked to hear more."
+      ],
+      "human_verification_tasks": [
+        "Distinguish planned metrics from measured results."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-25",
+      "day_number": 25,
+      "date": "2026-12-25",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Draft a sample pilot worksheet",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Create a blank worksheet for workflow scope, permitted data, reviewer, and success criteria."
+      ],
+      "engagement_tasks": [
+        "Ask trusted operators to critique the worksheet."
+      ],
+      "follow_up_tasks": [
+        "Send the worksheet manually to opt-in contacts."
+      ],
+      "human_verification_tasks": [
+        "No personal data or live data integrations."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-26",
+      "day_number": 26,
+      "date": "2026-12-26",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Hold exploratory conversations",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Conduct any scheduled calls and record anonymized needs and constraints."
+      ],
+      "engagement_tasks": [
+        "Answer follow-up questions from the calls."
+      ],
+      "follow_up_tasks": [
+        "Draft individualized summaries and proposed next steps for human review."
+      ],
+      "human_verification_tasks": [
+        "Confirm participant consent before recording details."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-27",
+      "day_number": 27,
+      "date": "2026-12-27",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Review feasibility of top request",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Rank the most-requested workflows by value, sensitivity, and build complexity."
+      ],
+      "engagement_tasks": [
+        "Ask one clarifying follow-up about high-priority needs."
+      ],
+      "follow_up_tasks": [
+        "Follow up on call commitments without batch automation."
+      ],
+      "human_verification_tasks": [
+        "Keep the concept's limitations explicit."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-28",
+      "day_number": 28,
+      "date": "2026-12-28",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Prepare the final invitation",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Refine the pilot invitation and questions from all feedback."
+      ],
+      "engagement_tasks": [
+        "Connect with two relevant organizers and share value before asking for time."
+      ],
+      "follow_up_tasks": [
+        "Prepare individualized invitation drafts for opt-in leads."
+      ],
+      "human_verification_tasks": [
+        "Check that there is no fabricated urgency or scarcity."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 0
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-29",
+      "day_number": 29,
+      "date": "2026-12-29",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Invite co-design partners",
+      "content_item_ids": [
+        "content-12"
+      ],
+      "marketing_tasks": [
+        "Publish the founder pilot-interest invitation."
+      ],
+      "engagement_tasks": [
+        "Respond individually to interested replies and qualify fit."
+      ],
+      "follow_up_tasks": [
+        "Send discovery next steps manually after a genuine request."
+      ],
+      "human_verification_tasks": [
+        "Do not mark leads as committed partners without confirmation."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 3,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    },
+    {
+      "id": "day-30",
+      "day_number": 30,
+      "date": "2026-12-30",
+      "phase": "pilot_interest_and_follow_up",
+      "focus": "Wrap up and choose next experiments",
+      "content_item_ids": [],
+      "marketing_tasks": [
+        "Publish no new marketing claims; prepare the 30-day learning memo and next-month plan."
+      ],
+      "engagement_tasks": [
+        "Thank participants and close open public conversations."
+      ],
+      "follow_up_tasks": [
+        "Send requested recap notes and schedule only agreed next steps."
+      ],
+      "human_verification_tasks": [
+        "Report actual results separately from targets and propose the next human-reviewed sprint."
+      ],
+      "target_metrics": {
+        "meaningful_public_interactions": 0,
+        "permission_based_outreach_drafts": 2
+      },
+      "actual_metrics": null,
+      "execution_status": "planned",
+      "notes": "All outbound messaging, publishing, and review decisions require human action."
+    }
+  ],
+  "follow_up_sequences": [
+    {
+      "id": "sequence-interested-commenter",
+      "name": "Respond to genuinely interested public commenters",
+      "allowed_entry_condition": "Contact asks for details or explicitly invites a follow-up; never scrape or auto-DM commenters.",
+      "channel": "manual_message",
+      "send_mode": "draft_for_human_approval",
+      "steps": [
+        {
+          "step": 1,
+          "delay_days": 0,
+          "subject": "Thanks for the thoughtful question",
+          "message": "Thanks for engaging with the post. Which workflow in your nonprofit program takes the most repeat effort right now?",
+          "exit_if": "No consent or no relevant interest"
+        },
+        {
+          "step": 2,
+          "delay_days": 3,
+          "subject": "A helpful example, if useful",
+          "message": "Following up because you asked about {{workflow_name}}. Here's a short, fictional example of how an AI draft plus human review might work. Would a brief conversation be useful?",
+          "exit_if": "Declined or requested no further contact"
+        },
+        {
+          "step": 3,
+          "delay_days": 7,
+          "subject": "Closing the loop",
+          "message": "No pressure to respond. If exploring a small, human-reviewed pilot becomes useful for your team, I'm happy to compare notes. I'll leave it here for now.",
+          "exit_if": "No response after this final permitted follow-up"
+        }
+      ]
+    },
+    {
+      "id": "sequence-discovery-call",
+      "name": "Follow up after an agreed discovery call",
+      "allowed_entry_condition": "A real discovery call was booked and the participant agreed to receive recap and next steps.",
+      "channel": "manual_email",
+      "send_mode": "draft_for_human_approval",
+      "steps": [
+        {
+          "step": 1,
+          "delay_days": 0,
+          "subject": "Our program workflow conversation",
+          "message": "Thanks for explaining {{organization_type}}'s process around {{workflow_name}}. My understanding: {{human_verified_summary}}. Please correct anything I missed.",
+          "exit_if": "Participant withdraws permission"
+        },
+        {
+          "step": 2,
+          "delay_days": 2,
+          "subject": "A small pilot outline for review",
+          "message": "Based on our conversation, a possible 14-day test could focus on {{workflow_name}} using only approved non-sensitive inputs. Shall we review the scope together?",
+          "exit_if": "No interest or insufficient safeguards"
+        },
+        {
+          "step": 3,
+          "delay_days": 7,
+          "subject": "Would a next step help?",
+          "message": "Checking whether you'd like to continue exploring a small test. If timing isn't right, happy to pause here.",
+          "exit_if": "No response after this step"
+        }
+      ]
+    },
+    {
+      "id": "sequence-pilot-question",
+      "name": "Respond to a pilot request with next steps",
+      "allowed_entry_condition": "A nonprofit representative explicitly requests pilot details.",
+      "channel": "manual_message",
+      "send_mode": "draft_for_human_approval",
+      "steps": [
+        {
+          "step": 1,
+          "delay_days": 0,
+          "subject": "Exploring an AI workflow pilot",
+          "message": "Appreciate your interest. Could you share the one recurring, low-risk workflow you'd most like to improve, the staff reviewer, and your preferred timeframe?",
+          "exit_if": "Pilot involves unapproved sensitive data or consequential automated decisions"
+        },
+        {
+          "step": 2,
+          "delay_days": 4,
+          "subject": "Clarifying the pilot scope",
+          "message": "Thanks for the context. We can sketch a small, human-reviewed example and agree on what success would mean. Would you prefer a short call?",
+          "exit_if": "Declined or opted out"
+        }
+      ]
+    }
+  ],
+  "lead_scenarios": [
+    {
+      "id": "demo-lead-001",
+      "fictional": true,
+      "organization_type": "Youth enrichment nonprofit",
+      "source_channel": "LinkedIn comments",
+      "stage": "interested_question",
+      "inbound_message": "Could this help us turn weekly workshop notes into a facilitator recap?",
+      "draft_ai_response": "Potentially as a draft workflow. For this concept we'd start with approved, non-sensitive notes, create a recap draft, and have your facilitator verify it. Which sections are hardest to prepare?",
+      "human_review_status": "awaiting_review",
+      "human_approved_response": null,
+      "assigned_sequence_id": "sequence-interested-commenter",
+      "example_next_review_date": "2026-12-09",
+      "actual_messages_sent": 0
+    },
+    {
+      "id": "demo-lead-002",
+      "fictional": true,
+      "organization_type": "Community health nonprofit",
+      "source_channel": "Instagram comment",
+      "stage": "privacy_objection",
+      "inbound_message": "What happens to sensitive client information in an AI tool?",
+      "draft_ai_response": "We wouldn't use sensitive client records in this demo. For any potential pilot, we would define permitted inputs and safeguards before testing. The concept is not presented as certified for protected client data.",
+      "human_review_status": "awaiting_review",
+      "human_approved_response": null,
+      "assigned_sequence_id": null,
+      "example_next_review_date": "2026-12-17",
+      "actual_messages_sent": 0
+    },
+    {
+      "id": "demo-lead-003",
+      "fictional": true,
+      "organization_type": "Volunteer-led food assistance program",
+      "source_channel": "Manual outreach response",
+      "stage": "requested_discovery",
+      "inbound_message": "Our volunteer reminder process takes too much coordination. What would a small test look like?",
+      "draft_ai_response": "Thanks for sharing the challenge. A possible first test could draft volunteer reminders from approved schedules, with a coordinator reviewing every message before sending. Could we discuss the process on a short call?",
+      "human_review_status": "awaiting_review",
+      "human_approved_response": null,
+      "assigned_sequence_id": "sequence-pilot-question",
+      "example_next_review_date": "2026-12-23",
+      "actual_messages_sent": 0
+    },
+    {
+      "id": "demo-lead-004",
+      "fictional": true,
+      "organization_type": "Workforce development organization",
+      "source_channel": "LinkedIn post reply",
+      "stage": "pilot_interest",
+      "inbound_message": "We run monthly cohorts and might want to explore facilitator preparation.",
+      "draft_ai_response": "That sounds worth exploring. Which materials does your facilitation team repeat each cohort, and which would need careful staff verification? We'd welcome a discovery conversation if useful.",
+      "human_review_status": "awaiting_review",
+      "human_approved_response": null,
+      "assigned_sequence_id": "sequence-pilot-question",
+      "example_next_review_date": "2026-12-30",
+      "actual_messages_sent": 0
+    }
+  ],
+  "reporting": {
+    "kpi_definitions": {
+      "approved_content": "Approved via a human review record; drafts never count",
+      "meaningful_public_conversation": "A relevant two-way exchange about real nonprofit workflow needs, not likes or impressions",
+      "permission_based_conversation": "A direct conversation initiated or consented to by the recipient",
+      "discovery_call_requested": "Recipient explicitly asks for, or agrees to, a discovery call",
+      "qualified_pilot_candidate": "Nonprofit meets the criteria in launch_targets"
+    },
+    "actuals": {
+      "approved_posts": 0,
+      "meaningful_public_conversations": null,
+      "permission_based_one_to_one_conversations": null,
+      "discovery_calls_requested": null,
+      "qualified_pilot_candidate_organizations": null
+    },
+    "analysis_questions": [
+      "What workflows were most often requested?",
+      "Which objections appeared most frequently?",
+      "Did the content attract real nonprofit operators rather than general AI enthusiasts?",
+      "Which messages led to permission-based conversations?",
+      "What must be tested in a human-reviewed pilot before any product claims?"
+    ],
+    "reporting_note": "Zero approved posts reflects imported demo review state, not observed campaign performance. All other actual KPIs are unknown until manually logged."
+  }
+}

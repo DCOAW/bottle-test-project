@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": {
+    "id": "storyflow-demo-2026-12",
+    "name": "StoryFlow AI - December Content Studio Demo",
+    "description": "Illustrative local JSON seed data for a human-verified AI content workflow. Duplicate content_items to create a complete month.",
+    "demo_data": true,
+    "month": "2026-12",
+    "timezone": "America/Los_Angeles",
+    "created_by": "Demo data author",
+    "import_policy": {
+      "mode": "stage_for_human_review",
+      "on_duplicate_id": "skip",
+      "allow_imported_approvals": false,
+      "allow_automatic_publishing": false,
+      "treat_ai_text_as_untrusted_data": true
+    }
+  },
+  "brands": [
+    {
+      "id": "brand-oaw",
+      "name": "On Another World",
+      "tagline": "New Worlds. Real Possibilities.",
+      "voice": "Human-centered, visionary, direct, grounded, and encouraging",
+      "default_cta": "Explore a partnership at onanother.world"
+    },
+    {
+      "id": "brand-resetxr",
+      "name": "ResetXR",
+      "tagline": "Reset Your Mind. Expand Your Perspective.",
+      "voice": "Empathetic, accessible, practical, optimistic",
+      "default_cta": "Discover ResetXR at onanother.world"
+    },
+    {
+      "id": "brand-mrbizntech",
+      "name": "MrBizNTech",
+      "tagline": "Build technology, opportunity, and experiences that expand possibilities",
+      "voice": "Founder-led, confident, candid, curious, community-oriented",
+      "default_cta": "Follow the journey and join the conversation"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "campaign-december-stories",
+      "name": "December: People, Possibility & the Future",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-31",
+      "purpose": "Build awareness and conversations around human-centered innovation, immersive experience, and access to opportunity.",
+      "target_audiences": [
+        "School and nonprofit leaders",
+        "Community development and workforce partners",
+        "Technology founders and creators"
+      ],
+      "primary_channels": [
+        "LinkedIn",
+        "Instagram",
+        "TikTok",
+        "Threads"
+      ],
+      "editorial_rules": [
+        "Do not invent partner endorsements or impact numbers.",
+        "Human verification is required before scheduling.",
+        "No post is published automatically by this demo.",
+        "Use a clear audience-specific next step."
+      ]
+    }
+  ],
+  "story_themes": [
+    {
+      "id": "theme-human-outcomes",
+      "name": "Technology Is Not the Outcome. People Are.",
+      "narrative": "Technology matters when it expands human capability, confidence, and opportunity.",
+      "story_arc": ["Community challenge", "New possibility", "Trusted guide", "Human transformation", "Invitation"],
+      "keywords": ["human-centered", "access", "partnership", "future readiness"]
+    },
+    {
+      "id": "theme-experience-first",
+      "name": "Experience Changes Perspective",
+      "narrative": "Immersive experiences create a starting point for reflection, learning, and new conversations.",
+      "story_arc": ["Question", "Lived challenge", "Immersive moment", "Reflection", "Next step"],
+      "keywords": ["ResetXR", "wellbeing", "reflection", "immersive technology"]
+    },
+    {
+      "id": "theme-ownership-opportunity",
+      "name": "From Access to Ownership",
+      "narrative": "The next generation should be able to build, create, and own what comes next.",
+      "story_arc": ["Access gap", "Builder perspective", "Practical pathway", "Future opportunity", "Call to action"],
+      "keywords": ["AI literacy", "creators", "mentorship", "ownership"]
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-dec-12-approved",
+      "campaign_id": "campaign-december-stories",
+      "title": "Produce 12 human-approved content pieces in December",
+      "description": "Count content items only after a human records an approval decision.",
+      "metric": "human_approved_content_count",
+      "target": 12,
+      "starts_on": "2026-12-01",
+      "due_on": "2026-12-31",
+      "milestones": [
+        { "id": "milestone-w1", "title": "Week 1: Establish the message", "due_on": "2026-12-07", "target_approved_items": 3 },
+        { "id": "milestone-w2", "title": "Week 2: Show the experience", "due_on": "2026-12-14", "target_approved_items": 3 },
+        { "id": "milestone-w3", "title": "Week 3: Connect learning and opportunity", "due_on": "2026-12-21", "target_approved_items": 3 },
+        { "id": "milestone-w4", "title": "Week 4: Start a conversation", "due_on": "2026-12-31", "target_approved_items": 3 }
+      ]
+    }
+  ],
+  "automation_templates": {
+    "enabled": false,
+    "execution_mode": "preview_only",
+    "note": "These are message suggestions for the local demo, not live email or social-media automations.",
+    "workflow_messages": [
+      {
+        "id": "message-review-request",
+        "trigger": "ai_draft_submitted",
+        "recipient_role": "human_reviewer",
+        "channel": "in_app",
+        "subject": "Review needed: {{content_title}}",
+        "body": "An AI draft for {{content_title}} is ready. Verify accuracy, story alignment, audience value, and CTA/rights before approving. Proposed date: {{proposed_publish_at}}."
+      },
+      {
+        "id": "message-revision-request",
+        "trigger": "human_requests_changes",
+        "recipient_role": "content_creator",
+        "channel": "in_app",
+        "subject": "Changes requested: {{content_title}}",
+        "body": "The reviewer requested changes to {{content_title}}. Feedback: {{review_feedback}}. Submit an updated draft for another review."
+      },
+      {
+        "id": "message-approved",
+        "trigger": "human_approves",
+        "recipient_role": "content_creator",
+        "channel": "in_app",
+        "subject": "Approved: {{content_title}}",
+        "body": "{{content_title}} passed human review and can now be scheduled. Approval alone does not publish content."
+      },
+      {
+        "id": "message-scheduled",
+        "trigger": "human_schedules",
+        "recipient_role": "content_creator",
+        "channel": "in_app",
+        "subject": "Scheduled manually: {{content_title}}",
+        "body": "{{content_title}} has a confirmed slot for {{scheduled_publish_at}} on {{platform}}. Publishing is still a manual action."
+      }
+    ]
+  },
+  "content_items": [
+    {
+      "id": "content-001",
+      "campaign_id": "campaign-december-stories",
+      "brand_id": "brand-oaw",
+      "goal_id": "goal-dec-12-approved",
+      "milestone_id": "milestone-w1",
+      "theme_id": "theme-human-outcomes",
+      "title": "Technology Is Not the Outcome. People Are.",
+      "content_pillar": "Human-centered innovation",
+      "idea": {
+        "summary": "Lead with a question about what communities actually gain from new technology.",
+        "audience": "School, nonprofit, and community organization leaders",
+        "objective": "Start partnership conversations",
+        "desired_action": "Visit onanother.world to discuss an experience or program",
+        "priority": "high",
+        "tags": ["partner-outreach", "impact", "storytelling"]
+      },
+      "creative_direction": {
+        "format": "founder_talking_head_video",
+        "duration_seconds": 45,
+        "story_framework": "problem-guide-transformation-cta",
+        "opening_hook": "What if the real measure of innovation was what it made possible for people?",
+        "core_tension": "Organizations are asked to prepare communities for the future with limited tools and resources.",
+        "key_message": "On Another World partners with organizations to bring purposeful immersive experiences to their communities.",
+        "visual_style": "Warm founder-led delivery, community imagery with documented permissions, clean text overlays",
+        "b_roll": ["Facilitator preparing a headset", "Participants exploring a supervised session", "Small-group reflection afterward"],
+        "editing_notes": ["Question in first three seconds", "Use captions", "End with partnership CTA"],
+        "claims_to_verify": ["Any participant count or measurable outcome added in a final edit", "Rights and consent for images of participants"]
+      },
+      "ai_work": {
+        "submission_id": "submission-001-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "Demo Content Writer",
+        "model": "not_specified_demo",
+        "submitted_at": "2026-11-23T10:00:00-08:00",
+        "task_prompt": "Write a 45-second founder-led video script using the supplied message and a question-first hook.",
+        "response_message": "Draft script, LinkedIn caption, and production guidance prepared for human verification.",
+        "deliverables": {
+          "script": {
+            "title": "People Before Technology",
+            "body": "What if the real measure of innovation wasn't the technology, but the possibilities it created for people? Across our communities, schools and organizations are doing essential work while the world changes around us. On Another World helps partners bring immersive experiences into that work, opening space for reflection, learning, and new perspectives. The future is human. Let's build experiences that help more people see what's possible. Explore a partnership at onanother.world.",
+            "estimated_seconds": 43
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "Technology is not the outcome. People are. The real question is how we help more communities experience what's possible. We're building partnerships around immersive learning, reflection, and future readiness. Let's connect: onanother.world",
+              "hashtags": ["#ImmersiveLearning", "#CommunityImpact", "#ResetXR"]
+            }
+          ],
+          "suggested_audience_replies": [
+            { "intent": "partnership_interest", "text": "Appreciate you connecting. What community or audience are you hoping to serve? We'd love to explore how an activation could support your goals.", "human_send_required": true },
+            { "intent": "how_it_works", "text": "ResetXR uses guided immersive experiences paired with facilitation and reflection. Happy to share a sample program outline.", "human_send_required": true }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": { "accuracy": "unchecked", "story_alignment": "unchecked", "audience_value": "unchecked", "cta_and_rights": "unchecked" }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-01T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": ["Is the human outcome specific?", "Does the script position the partner as the hero?", "Are all visuals cleared for use?"],
+        "suggested_quality_scores": null,
+        "performance_metrics": { "views": null, "engagements": null, "inquiries": null }
+      }
+    },
+    {
+      "id": "content-002",
+      "campaign_id": "campaign-december-stories",
+      "brand_id": "brand-resetxr",
+      "goal_id": "goal-dec-12-approved",
+      "milestone_id": "milestone-w2",
+      "theme_id": "theme-experience-first",
+      "title": "A Reset Moment Can Change the Conversation",
+      "content_pillar": "Wellbeing and reflection",
+      "idea": {
+        "summary": "Explain the value of short, guided immersive reflection without making clinical promises.",
+        "audience": "Event organizers, educators, and community leaders",
+        "objective": "Demonstrate the experience concept",
+        "desired_action": "Ask about bringing ResetXR to an event or program",
+        "priority": "medium",
+        "tags": ["resetxr", "wellbeing", "activations"]
+      },
+      "creative_direction": {
+        "format": "vertical_short_video",
+        "duration_seconds": 30,
+        "story_framework": "question-experience-reflection-cta",
+        "opening_hook": "What can ten intentional minutes make room for?",
+        "core_tension": "Busy settings often leave little space to pause and reflect.",
+        "key_message": "Guided immersive sessions can become a shared starting point for meaningful conversation.",
+        "visual_style": "Calm pacing, real headset and facilitator footage, legible overlay text",
+        "b_roll": ["Headset station setup", "Approved immersive environment footage", "Facilitator-led debrief"],
+        "editing_notes": ["Vertical 9:16", "Burned-in captions", "No unsupported wellbeing outcome claims"],
+        "claims_to_verify": ["Whether session duration matches the featured activation", "Participant and soundtrack usage rights"]
+      },
+      "ai_work": {
+        "submission_id": "submission-002-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "Demo Script Assistant",
+        "model": "not_specified_demo",
+        "submitted_at": "2026-11-24T11:00:00-08:00",
+        "task_prompt": "Create a 30-second vertical video script focused on a ResetXR session and follow-up reflection.",
+        "response_message": "Short-form script and Instagram caption ready. Please verify footage rights and session details.",
+        "deliverables": {
+          "script": {
+            "title": "The Reset Moment",
+            "body": "What can ten intentional minutes make room for? A chance to pause. A chance to explore a new perspective. A chance to talk about what comes next. ResetXR brings guided immersive experiences into the spaces where communities already gather, with real people facilitating and reflecting together. Reset your mind. Expand your perspective. Discover ResetXR at onanother.world.",
+            "estimated_seconds": 29
+          },
+          "captions": [
+            {
+              "platform": "Instagram",
+              "text": "The most powerful part of an experience might be the conversation it starts afterward. ResetXR brings guided immersive moments into community programs and events. Let's explore what's possible together: onanother.world",
+              "hashtags": ["#ResetXR", "#XRforGood", "#ImmersiveWellness"]
+            }
+          ],
+          "suggested_audience_replies": [
+            { "intent": "booking_question", "text": "Thanks for asking! Tell us your city, event date, and expected audience, and we can discuss an activation that fits.", "human_send_required": true }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": { "accuracy": "unchecked", "story_alignment": "unchecked", "audience_value": "unchecked", "cta_and_rights": "unchecked" }
+      },
+      "schedule": {
+        "platform": "Instagram",
+        "proposed_publish_at": "2026-12-09T08:30:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": ["Is the format compelling in 30 seconds?", "Does the video avoid clinical claims?", "Is footage permission documented?"],
+        "suggested_quality_scores": null,
+        "performance_metrics": { "views": null, "engagements": null, "inquiries": null }
+      }
+    },
+    {
+      "id": "content-003",
+      "campaign_id": "campaign-december-stories",
+      "brand_id": "brand-oaw",
+      "goal_id": "goal-dec-12-approved",
+      "milestone_id": "milestone-w3",
+      "theme_id": "theme-ownership-opportunity",
+      "title": "Future Readiness Is Bigger Than Technical Skills",
+      "content_pillar": "AI literacy and career readiness",
+      "idea": {
+        "summary": "Introduce Chasing Dreams through a human development and workforce-readiness lens.",
+        "audience": "Workforce development leaders and youth-serving organizations",
+        "objective": "Generate conversations about learning partnerships",
+        "desired_action": "Connect about a program or pilot",
+        "priority": "high",
+        "tags": ["chasing-dreams", "AI-literacy", "workforce"]
+      },
+      "creative_direction": {
+        "format": "carousel",
+        "duration_seconds": null,
+        "story_framework": "challenge-skills-pathway-invitation",
+        "opening_hook": "Are we preparing young people to use technology, or to shape what comes next?",
+        "core_tension": "Future readiness also depends on confidence, perspective, and practical skills.",
+        "key_message": "Chasing Dreams combines future-oriented learning with human development and opportunity exploration.",
+        "visual_style": "Bold headline slides, warm portrait photography with usage rights, simple graphic system",
+        "b_roll": [],
+        "editing_notes": ["Five slides maximum", "Readable on mobile", "One clear CTA on final slide"],
+        "claims_to_verify": ["Exact availability and scope of any proposed Chasing Dreams program", "Any partner logo or student image permissions"]
+      },
+      "ai_work": {
+        "submission_id": "submission-003-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "Demo Story Planner",
+        "model": "not_specified_demo",
+        "submitted_at": "2026-11-25T12:00:00-08:00",
+        "task_prompt": "Write a five-slide LinkedIn carousel about youth future readiness and ownership.",
+        "response_message": "Carousel slide copy and content direction generated; program claims need human confirmation.",
+        "deliverables": {
+          "script": {
+            "title": "Future Readiness Carousel Slides",
+            "body": "Slide 1: Are we preparing young people to use technology, or to shape what comes next?\nSlide 2: Access matters. But access alone is not the finish line.\nSlide 3: Confidence, creativity, and decision-making matter too.\nSlide 4: Chasing Dreams explores future readiness through skills, perspective, and possibility.\nSlide 5: Let's build more pathways together. Explore a partnership at onanother.world.",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "LinkedIn",
+              "text": "Future readiness is about more than access to tools. It's also about confidence, perspective, and the opportunity to build. We're exploring that connection through Chasing Dreams. Who is helping young people move from access toward ownership?",
+              "hashtags": ["#FutureReadiness", "#AILiteracy", "#YouthDevelopment"]
+            }
+          ],
+          "suggested_audience_replies": [
+            { "intent": "curriculum_interest", "text": "Appreciate your interest. What age group and learning goals are you working with? We'd love to compare notes on potential pilot approaches.", "human_send_required": true }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": { "accuracy": "unchecked", "story_alignment": "unchecked", "audience_value": "unchecked", "cta_and_rights": "unchecked" }
+      },
+      "schedule": {
+        "platform": "LinkedIn",
+        "proposed_publish_at": "2026-12-16T09:00:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": ["Is Chasing Dreams described accurately?", "Does the carousel lead to a conversation?", "Are images and logos cleared?"],
+        "suggested_quality_scores": null,
+        "performance_metrics": { "views": null, "engagements": null, "inquiries": null }
+      }
+    },
+    {
+      "id": "content-004",
+      "campaign_id": "campaign-december-stories",
+      "brand_id": "brand-mrbizntech",
+      "goal_id": "goal-dec-12-approved",
+      "milestone_id": "milestone-w4",
+      "theme_id": "theme-ownership-opportunity",
+      "title": "The Future Needs More Builders and Owners",
+      "content_pillar": "Founder perspective and community opportunity",
+      "idea": {
+        "summary": "Invite builders, mentors, and community leaders into a conversation about creating opportunity.",
+        "audience": "Technology creators, founders, mentors, and community advocates",
+        "objective": "Encourage thoughtful replies and new connections",
+        "desired_action": "Reply with one practical way to expand ownership",
+        "priority": "medium",
+        "tags": ["MrBizNTech", "ownership", "community"]
+      },
+      "creative_direction": {
+        "format": "short_text_post",
+        "duration_seconds": null,
+        "story_framework": "question-stance-invitation",
+        "opening_hook": "Who gets to build and own the future we're all talking about?",
+        "core_tension": "Participation in technology should include a pathway to building and ownership.",
+        "key_message": "Build networks that help talented people create and own new opportunities.",
+        "visual_style": "Plain-text conversational post",
+        "b_roll": [],
+        "editing_notes": ["Under 500 characters for Threads, including spaces and hashtags", "End with an open question"],
+        "claims_to_verify": ["Any numerical representation claims added during editing"]
+      },
+      "ai_work": {
+        "submission_id": "submission-004-v1",
+        "source": "illustrative_ai_draft",
+        "agent_name": "Demo Social Copy Assistant",
+        "model": "not_specified_demo",
+        "submitted_at": "2026-11-26T13:00:00-08:00",
+        "task_prompt": "Write a conversational Threads post under 500 characters on access, building, and ownership.",
+        "response_message": "Draft short-form post and a potential first-comment response for review.",
+        "deliverables": {
+          "script": {
+            "title": "The Future Needs Builders",
+            "body": "Who gets to build and own the future we're all talking about? I believe access to tech is only the beginning. We need more pathways for people to create, lead, and own what comes next. I'm building toward that future with founders, young people, and community partners. What's one opportunity you wish existed when you started?",
+            "estimated_seconds": null
+          },
+          "captions": [
+            {
+              "platform": "Threads",
+              "text": "Who gets to build and own the future we're all talking about? I believe access to tech is only the beginning. We need more pathways for people to create, lead, and own what comes next. What's one opportunity you wish existed when you started?",
+              "hashtags": []
+            }
+          ],
+          "suggested_audience_replies": [
+            { "intent": "first_comment", "text": "My answer: opportunities to learn by building real things with experienced people willing to open doors. What's yours?", "human_send_required": true },
+            { "intent": "collaboration_interest", "text": "Love this perspective. What are you currently building or supporting?", "human_send_required": true }
+          ]
+        }
+      },
+      "review": {
+        "status": "awaiting_review",
+        "decision": null,
+        "reviewer": null,
+        "reviewed_at": null,
+        "feedback": "",
+        "checklist": { "accuracy": "unchecked", "story_alignment": "unchecked", "audience_value": "unchecked", "cta_and_rights": "unchecked" }
+      },
+      "schedule": {
+        "platform": "Threads",
+        "proposed_publish_at": "2026-12-23T08:30:00-08:00",
+        "scheduled_publish_at": null,
+        "state": "proposed",
+        "publishing_method": "manual"
+      },
+      "analysis": {
+        "human_review_questions": ["Does the post sound authentic to the founder?", "Is the Threads character limit respected?", "Will the final question spark useful discussion?"],
+        "suggested_quality_scores": null,
+        "performance_metrics": { "views": null, "engagements": null, "inquiries": null }
+      }
+    }
+  ]
+}
