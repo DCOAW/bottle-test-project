@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "document_type": "platform_knowledge",
+  "platform": {
+    "name": "StoryFlow AI",
+    "mission": "Help human teams turn AI-generated work into credible, reviewable, well-organized results.",
+    "primary_goal": "Provide an internal, human-directed workspace for reviewing AI-generated content, connecting it to goals and milestones, and planning approved publication and follow-up.",
+    "audiences": [
+      "Small startup marketing teams",
+      "Nonprofit program operators",
+      "Content producers and human reviewers"
+    ],
+    "principles": [
+      "AI completion is never the same as human approval.",
+      "Keep real and staged inputs clearly distinguishable.",
+      "Do not schedule unapproved drafts or send messages without review.",
+      "Never invent results, endorsements, data rights, or outcomes."
+    ],
+    "planned_workflow": [
+      "Import knowledge and campaign JSON",
+      "Analyze goals, themes, content, and suggested replies",
+      "Human verifies quality, accuracy, brand fit, and permissions",
+      "Human confirms planning and scheduling",
+      "Track actions and outcomes separately from targets"
+    ],
+    "accepted_data_formats": [
+      "platform_knowledge 1.x",
+      "StoryFlow campaign dataset 1.x"
+    ]
+  },
+  "demo_guardrails": {
+    "auto_publish": false,
+    "auto_send_messages": false,
+    "allow_ai_approval": false,
+    "contains_real_participant_data": false
+  }
+}
